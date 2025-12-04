@@ -22,7 +22,7 @@ jobs:
       - name: Deploy to WebApp
         run: |
           az webapp config container set \
-          -g ss-lab-rg \
+          -g ss-lab-r-andrey \
           -n sslab-webapp-andrey \
           --container-image-name sslablabacrandrey.azurecr.io/myapp:latest \
           --container-registry-url https://sslablabacrandrey.azurecr.io \
